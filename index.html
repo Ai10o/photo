@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея случайных фото</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Random Photo Gallery</h1><br>
+        <div id="photo-gallery"></div>
+    </div>
+    <footer>        
+        <p><a href="mailto:info@example.com">kudr878@gmail.com</a></p>
+    </footer>  
+    <div id="lightbox" class="hidden">
+        <span class="close-button" id="close-button"><img src="image/cancel.png" alt="Закрыть"></span>
+        <a href="#" id="download-button" download class="button"><image src="image/download.png"></a> 
+        <span class="lightbox-prev" id="lightbox-prev">&#10094;</span>
+        <span class="lightbox-next" id="lightbox-next">&#10095;</span>
+        <img id="lightbox-image" src="" alt="Увеличенное изображение">
+    </div>   
+    <script src="script.js"></script>
+</body>
+</html>
